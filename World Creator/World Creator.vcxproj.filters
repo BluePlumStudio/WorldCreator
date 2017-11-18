@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Occlusion Engine">
+      <UniqueIdentifier>{2d49e7ec-570f-4a72-bf8c-ca6a7f813795}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Occlusion Engine\Camera">
+      <UniqueIdentifier>{2e77093e-fdd8-4578-80ce-71e79cb01639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Occlusion Engine\ShaderProgram">
+      <UniqueIdentifier>{3d37fe61-ba18-4533-adb5-d4960a224781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Occlusion Engine\Texture2D">
+      <UniqueIdentifier>{aea91bc7-1be1-4299-88f2-9fd4e3db4954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Occlusion Engine\PipeLine">
+      <UniqueIdentifier>{7890b7d4-56f7-4831-81f4-74967543a46a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{2248c58b-b7bc-4ba2-b9a5-5faf7f8e281e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\World">
+      <UniqueIdentifier>{1143f3d4-4046-4098-8a25-30c377646576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\World\Chunk">
+      <UniqueIdentifier>{ccc9556d-5d2c-4a97-9bb6-ca7c53e694cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\World\Chunk\Block">
+      <UniqueIdentifier>{cc7d1a0d-fbeb-46fa-be6d-9add6c7d669e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\着色器">
+      <UniqueIdentifier>{b82fbd28-9927-4e6b-ad58-028fc98124d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Occlusion Engine\GUIRenderer">
+      <UniqueIdentifier>{68c74c59-31e6-4d34-a10a-4ba06e8c92d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Occlusion Engine\TextRenderer">
+      <UniqueIdentifier>{2b34db05-992d-4045-a074-e78ab507e95e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Occlusion Engine\GUIRenderer\GUIWidget">
+      <UniqueIdentifier>{161138c1-1491-4b28-8c65-b85af0914761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Occlusion Engine\GUIRenderer\GUIWidget\GUISlider">
+      <UniqueIdentifier>{7d6adc68-239e-45dc-899d-95c1407cfec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Occlusion Engine\GUIRenderer\GUIWidget\GUIPushButton">
+      <UniqueIdentifier>{67217aa8-39d4-4fda-8871-2e52a49fdd63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Occlusion Engine\GUIRenderer\GUIWidget\GUIPushButton\GUIImagePushButton">
+      <UniqueIdentifier>{7f791b6c-afd6-490f-83a6-b6bccd423d2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Occlusion Engine\GUIRenderer\GUIWidget\GUILabel">
+      <UniqueIdentifier>{3f9ede43-b747-45a7-93c4-e08aee9f9165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Occlusion Engine\TextRenderer\Font">
+      <UniqueIdentifier>{5e2c7de1-123a-45f9-863a-78d0ccfda734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Occlusion Engine\VertexBuffer">
+      <UniqueIdentifier>{5a16187b-19da-4e28-9196-5adc59790925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Occlusion Engine\VertexBuffer\DrawList">
+      <UniqueIdentifier>{b3854ff0-3b50-4e6c-8293-f752058c0ff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Occlusion Engine\VertexBuffer\DrawList\Vertex">
+      <UniqueIdentifier>{b7b772aa-1ad5-41d6-b5e4-e85c66e506eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Occlusion Engine\FrameBuffer">
+      <UniqueIdentifier>{91555e3d-80f3-41dc-8672-ddcaf75f7256}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Occlusion Engine\RenderBuffer">
+      <UniqueIdentifier>{07c4cdd1-936b-4762-9816-19c78f2b3329}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderProgram.cpp">
+      <Filter>Occlusion Engine\ShaderProgram</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2D.cpp">
+      <Filter>Occlusion Engine\Texture2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Occlusion Engine\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Game\World\Chunk\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Blocks.cpp">
+      <Filter>Game\World\Chunk\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Game\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Chunk.cpp">
+      <Filter>Game\World\Chunk</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawList.cpp">
+      <Filter>Occlusion Engine\VertexBuffer\DrawList</Filter>
+    </ClCompile>
+    <ClCompile Include="PipeLine.cpp">
+      <Filter>Occlusion Engine\PipeLine</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Occlusion Engine\TextRenderer\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="TextRenderer.cpp">
+      <Filter>Occlusion Engine\TextRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIRenderer.cpp">
+      <Filter>Occlusion Engine\GUIRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIWidget.cpp">
+      <Filter>Occlusion Engine\GUIRenderer\GUIWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIPushButton.cpp">
+      <Filter>Occlusion Engine\GUIRenderer\GUIWidget\GUIPushButton</Filter>
+    </ClCompile>
+    <ClCompile Include="GUISlider.cpp">
+      <Filter>Occlusion Engine\GUIRenderer\GUIWidget\GUISlider</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIImagePushButton.cpp">
+      <Filter>Occlusion Engine\GUIRenderer\GUIWidget\GUIPushButton\GUIImagePushButton</Filter>
+    </ClCompile>
+    <ClCompile Include="GUILabel.cpp">
+      <Filter>Occlusion Engine\GUIRenderer\GUIWidget\GUILabel</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBuffer.cpp">
+      <Filter>Occlusion Engine\VertexBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameBuffer.cpp">
+      <Filter>Occlusion Engine\FrameBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderBuffer.cpp">
+      <Filter>Occlusion Engine\RenderBuffer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderProgram.h">
+      <Filter>Occlusion Engine\ShaderProgram</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2D.h">
+      <Filter>Occlusion Engine\Texture2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Occlusion Engine\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Blocks.h">
+      <Filter>Game\World\Chunk\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Game\World\Chunk\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Occlusion Engine\VertexBuffer\DrawList\Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Game\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Chunk.h">
+      <Filter>Game\World\Chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawList.h">
+      <Filter>Occlusion Engine\VertexBuffer\DrawList</Filter>
+    </ClInclude>
+    <ClInclude Include="PipeLine.h">
+      <Filter>Occlusion Engine\PipeLine</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Occlusion Engine\TextRenderer\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="TextRenderer.h">
+      <Filter>Occlusion Engine\TextRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIRenderer.h">
+      <Filter>Occlusion Engine\GUIRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIState.h">
+      <Filter>Occlusion Engine\GUIRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIWidget.h">
+      <Filter>Occlusion Engine\GUIRenderer\GUIWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIPushButton.h">
+      <Filter>Occlusion Engine\GUIRenderer\GUIWidget\GUIPushButton</Filter>
+    </ClInclude>
+    <ClInclude Include="GUISlider.h">
+      <Filter>Occlusion Engine\GUIRenderer\GUIWidget\GUISlider</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIImagePushButton.h">
+      <Filter>Occlusion Engine\GUIRenderer\GUIWidget\GUIPushButton\GUIImagePushButton</Filter>
+    </ClInclude>
+    <ClInclude Include="GUILabel.h">
+      <Filter>Occlusion Engine\GUIRenderer\GUIWidget\GUILabel</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.h">
+      <Filter>Occlusion Engine\VertexBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameBuffer.h">
+      <Filter>Occlusion Engine\FrameBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderBuffer.h">
+      <Filter>Occlusion Engine\RenderBuffer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\main.fs">
+      <Filter>Game\着色器</Filter>
+    </None>
+    <None Include="Shaders\main.vs">
+      <Filter>Game\着色器</Filter>
+    </None>
+    <None Include="Shaders\logo.fs">
+      <Filter>Game\着色器</Filter>
+    </None>
+    <None Include="Shaders\logo.vs">
+      <Filter>Game\着色器</Filter>
+    </None>
+    <None Include="Shaders\white.fs">
+      <Filter>Game\着色器</Filter>
+    </None>
+    <None Include="Shaders\white.vs">
+      <Filter>Game\着色器</Filter>
+    </None>
+    <None Include="Shaders\char.fs">
+      <Filter>Game\着色器</Filter>
+    </None>
+    <None Include="Shaders\char.vs">
+      <Filter>Game\着色器</Filter>
+    </None>
+    <None Include="Shaders\char_msdf.fs">
+      <Filter>Game\着色器</Filter>
+    </None>
+    <None Include="Shaders\char_msdf.vs">
+      <Filter>Game\着色器</Filter>
+    </None>
+    <None Include="Shaders\GUI.fs">
+      <Filter>Game\着色器</Filter>
+    </None>
+    <None Include="Shaders\GUI.vs">
+      <Filter>Game\着色器</Filter>
+    </None>
+    <None Include="Shaders\screen.fs">
+      <Filter>Game\着色器</Filter>
+    </None>
+    <None Include="Shaders\screen.vs">
+      <Filter>Game\着色器</Filter>
+    </None>
+  </ItemGroup>
+</Project>
